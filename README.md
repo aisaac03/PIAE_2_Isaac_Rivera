@@ -11,7 +11,6 @@ All core data utilized to train the surrogate model and build the baseline catal
 - **Neural Network Surrogate Model:** A Keras Functional API multi-branch Multi-Layer Perceptron (MLP).
 - **Optimization Algorithm:** Uses `scipy.optimize.minimize` (SLSQP) to reverse-engineer geometries to meet specific aerodynamic targets.
 - **Interactive Interface:** A Flask-based web application to input flight regimes, set aerodynamic targets, and download HTML reports with CAD coordinates.
-- **Automated OpenFOAM Validation Pipeline:** Bash/Python bridging to validate new geometries using Navier-Stokes equations in a Linux WSL environment.
 
 ## Project Structure
 - `data/` - Holds datasets and CSV logs (Models are kept locally due to size).
