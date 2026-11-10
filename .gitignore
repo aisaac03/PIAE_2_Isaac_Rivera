@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.py[cod]
+/data/airfoil_surrogate_model.keras
+/data/airfoil_tensor_dict.pkl
